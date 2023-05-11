@@ -1,0 +1,18 @@
+.teds-search-wrapper {
+    position: relative;
+}
+.teds-search-field {
+    padding-left: 40px !important;
+}
+.teds-search-wrapper .reset-button,
+.teds-search-wrapper .search-button {
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+}
+.teds-search-wrapper .reset-button {
+    left: 10px;
+}
+.teds-search-wrapper .search-button {
+    right: 5px;
+}
