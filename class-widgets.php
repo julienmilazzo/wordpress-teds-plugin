@@ -68,7 +68,8 @@ class Widgets {
 		require_once 'widgets/class-tedsjssearchinpage.php';
         require_once 'widgets/class-teds-link-with-icon-full-width.php';
         require_once 'widgets/class-teds-ACF-repeater-table-render.php';
-	}
+        require_once 'widgets/class-teds-ACF-repeater-list-render.php';
+    }
 
 	/**
 	 * Register Widgets
@@ -86,6 +87,7 @@ class Widgets {
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new Widgets\TedsJsSearchInPage() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new Widgets\TedsLinkWithIconFullWidth() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new Widgets\TedsACFRepeaterTableRender() );
+        \Elementor\Plugin::instance()->widgets_manager->register_widget_type( new Widgets\TedsACFRepeaterListRender() );
         // widget link personnalisable
 	}
 
